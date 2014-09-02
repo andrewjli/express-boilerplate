@@ -13,14 +13,14 @@ A simple boilerplate I made for personal use as a starting point for Express.js 
 * [Font Awesome](http://fortawesome.github.io/Font-Awesome/)
 
 ## Usage
-* Download a copy of the repository
+1. Download a copy of the repository
   * I recommend not cloning the repository to avoid having to reconfigure git remotes. It's easier to just download a clean copy using the "Download ZIP" option to the right.
   * Alternatively, you can fork the repo, make your changes (e.g. rename) and then clone it to use as your own project repo.
-* Install dependencies using npm  
+2. Install dependencies using npm  
 `$ npm install`
-* Run the app  
+3. Run the app  
 `$ node app.js`
-* Navigate to http://localhost:3000 to view your app
+4. Navigate to [http://localhost:3000] to view your app
 
 ## Contributions
 If you want to make any improvements to the boilerplate, feel free to fork the repo and then send me a pull request. I don't consider myself an Express expert by any means.
