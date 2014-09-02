@@ -16,7 +16,7 @@ A simple boilerplate I made for personal use as a starting point for Express.js 
 * Download a copy of the repository
   * I recommend not cloning the repository to avoid having to reconfigure git remotes. It's easier to just download a clean copy using the "Download ZIP" option to the right.
   * Alternatively, you can fork the repo, make your changes (e.g. rename) and then clone it to use as your own project repo.
-* Install dependencies using npm.  
+* Install dependencies using npm  
 `$ npm install`
 * Run the app  
 `$ node app.js`
@@ -26,4 +26,4 @@ A simple boilerplate I made for personal use as a starting point for Express.js 
 If you want to make any improvements to the boilerplate, feel free to fork the repo and then send me a pull request. I don't consider myself an Express expert by any means.
 
 ## License
-MIT License
+MIT License. See [LICENSE](/blob/master/LICENSE)
