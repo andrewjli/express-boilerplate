@@ -26,4 +26,4 @@ A simple boilerplate I made for personal use as a starting point for Express.js 
 If you want to make any improvements to the boilerplate, feel free to fork the repo and then send me a pull request. I don't consider myself an Express expert by any means.
 
 ## License
-MIT License. See [LICENSE](/blob/master/LICENSE)
+MIT License. See [LICENSE](/LICENSE)
