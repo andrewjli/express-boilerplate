@@ -20,7 +20,7 @@ A simple boilerplate I made for personal use as a starting point for Express.js 
 `$ npm install`
 3. Run the app  
 `$ node app.js`
-4. Navigate to [http://localhost:3000] to view your app
+4. Navigate to [http://localhost:3000](http://localhost:3000) to view your app
 
 ## Contributions
 If you want to make any improvements to the boilerplate, feel free to fork the repo and then send me a pull request. I don't consider myself an Express expert by any means.
