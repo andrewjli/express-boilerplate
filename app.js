@@ -18,7 +18,7 @@ app.configure('development', function(){
     app.locals.pretty = true;
 });
 app.configure('production', function(){
-  app.use(express.errorHandler()); 
+    app.use(express.errorHandler()); 
 });
 
 // Routes
