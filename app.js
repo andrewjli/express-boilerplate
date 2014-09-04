@@ -23,6 +23,8 @@ app.configure('production', function(){
 
 // Routes
 app.get('/', routes.index);
+app.get('/about', routes.about);
+app.get('/contact', routes.contact);
 
 // Start server
 app.listen(app.get('port'));
