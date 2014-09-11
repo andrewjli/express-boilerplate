@@ -11,6 +11,7 @@ A simple boilerplate I made for personal use as a starting point for Express.js 
 * [Jade](http://jade-lang.com/)
 * [Bootstrap](http://getbootstrap.com/)
 * [Font Awesome](http://fortawesome.github.io/Font-Awesome/)
+* [node-mysql](https://github.com/felixge/node-mysql) (Optional)
 
 ## Usage
 1. Download a copy of the repository
@@ -21,6 +22,14 @@ A simple boilerplate I made for personal use as a starting point for Express.js 
 3. Run the app  
 `$ node app.js`
 4. Navigate to [http://localhost:3000](http://localhost:3000) to view your app
+
+### Database
+I've included a sample config for a MySQL database, but it is currently disabled. To enable/disable it, check `common.js` and comment/uncomment the appropriate line.
+```js
+/* MySQL Database */
+// var db = require('./db').init(conf);
+var db = null;
+```
 
 ## Contributions
 If you want to make any improvements to the boilerplate, feel free to fork the repo and then send me a pull request. I don't consider myself an Express expert by any means.
