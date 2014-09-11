@@ -1,7 +1,4 @@
-// Module dependencies
 var express = require('express');
-var routes = require('./routes');
-
 var app = module.exports = express();
 
 // Environment setup
@@ -22,9 +19,11 @@ app.configure('production', function(){
 });
 
 // Routes
-app.get('/', routes.index);
-app.get('/about', routes.about);
-app.get('/contact', routes.contact);
+var index = require('./routes/index');
+
+app.get('/', index.home);
+app.get('/about', index.about);
+app.get('/contact', index.contact);
 
 // Start server
 app.listen(app.get('port'));
