@@ -25,6 +25,9 @@ app.get('/', index.home);
 app.get('/about', index.about);
 app.get('/contact', index.contact);
 
+// Or external Router if you prefer
+// require('./router')(app);
+
 // Start server
 app.listen(app.get('port'));
 console.log('Express server listening on port %d in %s mode', app.get('port'), app.get('env'));
